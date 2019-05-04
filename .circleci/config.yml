@@ -7,9 +7,7 @@ jobs:
       - checkout
       - run:
         name: Restore packages
-        command:
-          dotnet restore
+        command: dotnet restore
       - run:
         name: Build
-        command:
-          dotnet build
+        command: dotnet build
